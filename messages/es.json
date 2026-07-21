@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos"
+  },
+  "languageSwitcher": {
+    "label": "Idioma"
+  },
+  "home": {
+    "title": "Para empezar, edita el archivo page.tsx.",
+    "description": "¿Buscas un punto de partida o más instrucciones? Visita Templates o el centro de Learning."
+  }
+}
