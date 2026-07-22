@@ -7,6 +7,7 @@ export type PerfilInfo = {
   enfoque: LocalizedText;
   actualmente: LocalizedText;
   cofundador: LocalizedText;
+  cofundadorUrl: string;
 };
 
 export const perfil: PerfilInfo = {
@@ -28,6 +29,7 @@ export const perfil: PerfilInfo = {
     es: "NGC Software Solutions",
     en: "NGC Software Solutions",
   },
+  cofundadorUrl: "https://ngcsoftwaresolutions.com/",
 };
 
 export const bio: LocalizedText[] = [

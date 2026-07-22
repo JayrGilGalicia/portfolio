@@ -65,7 +65,14 @@ export default async function AboutProfile({ locale }: AboutProfileProps) {
               {t("labelCofundador")}
             </dt>
             <dd className="mt-1 text-sm text-foreground">
-              {pickLocalizedText(perfil.cofundador, locale)}
+              <a
+                href={perfil.cofundadorUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="underline decoration-border underline-offset-2 transition-colors hover:text-accent hover:decoration-accent"
+              >
+                {pickLocalizedText(perfil.cofundador, locale)}
+              </a>
             </dd>
           </div>
         </dl>
