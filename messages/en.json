@@ -1,14 +1,66 @@
 {
+  "metadata": {
+    "title": "Jayr — Full-stack developer",
+    "description": "Portfolio of Jayr, a full-stack developer specialized in regulated-data systems (healthcare and energy). Case studies: Clínica San Juan and Monitor I3."
+  },
   "nav": {
     "home": "Home",
-    "about": "About me",
-    "projects": "Projects"
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "stack": "Stack",
+    "education": "Education",
+    "contact": "Contact",
+    "menu": "Open menu"
   },
   "languageSwitcher": {
     "label": "Language"
   },
-  "home": {
-    "title": "To get started, edit the page.tsx file.",
-    "description": "Looking for a starting point or more instructions? Head over to Templates or the Learning center."
+  "theme": {
+    "toggleToLight": "Switch to light mode",
+    "toggleToDark": "Switch to dark mode"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Jayr",
+    "role": "Full-stack developer",
+    "tagline": "Co-founder of NGC Software Solutions and developer at A3E Ingenieros. I build systems for regulated data — healthcare and energy — based in Morelos, Mexico.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Get in touch"
+  },
+  "about": {
+    "heading": "About",
+    "labelNombre": "Name",
+    "labelRol": "Role",
+    "labelStack": "Core stack",
+    "labelEnfoque": "Focus",
+    "labelActualmente": "Currently",
+    "labelCofundador": "Co-founder"
+  },
+  "experience": {
+    "heading": "Experience",
+    "current": "Active"
+  },
+  "projects": {
+    "heading": "Projects",
+    "viewCase": "View case study"
+  },
+  "stack": {
+    "heading": "Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "data": "Data & infrastructure",
+    "tools": "Tools"
+  },
+  "education": {
+    "heading": "Education"
+  },
+  "contact": {
+    "heading": "Contact",
+    "description": "Have a project in mind? Reach out directly.",
+    "cta": "Send an email"
+  },
+  "footer": {
+    "rights": "© {year} Jayr — all rights reserved"
   }
 }

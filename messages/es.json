@@ -1,14 +1,66 @@
 {
+  "metadata": {
+    "title": "Jayr — Desarrollador full-stack",
+    "description": "Portafolio de Jayr, desarrollador full-stack especializado en sistemas de datos regulados (salud y energía). Casos de estudio: Clínica San Juan y Monitor I3."
+  },
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
-    "projects": "Proyectos"
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "education": "Educación",
+    "contact": "Contacto",
+    "menu": "Abrir menú"
   },
   "languageSwitcher": {
     "label": "Idioma"
   },
-  "home": {
-    "title": "Para empezar, edita el archivo page.tsx.",
-    "description": "¿Buscas un punto de partida o más instrucciones? Visita Templates o el centro de Learning."
+  "theme": {
+    "toggleToLight": "Cambiar a modo claro",
+    "toggleToDark": "Cambiar a modo oscuro"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Jayr",
+    "role": "Desarrollador full-stack",
+    "tagline": "Co-fundador de NGC Software Solutions y desarrollador en A3E Ingenieros. Construyo sistemas para datos regulados — salud y energía — desde Morelos, México.",
+    "ctaPrimary": "Ver proyectos",
+    "ctaSecondary": "Contactar"
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "labelNombre": "Nombre",
+    "labelRol": "Rol",
+    "labelStack": "Stack principal",
+    "labelEnfoque": "Enfoque",
+    "labelActualmente": "Actualmente",
+    "labelCofundador": "Cofundador"
+  },
+  "experience": {
+    "heading": "Experiencia",
+    "current": "Activo"
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "viewCase": "Ver caso de estudio"
+  },
+  "stack": {
+    "heading": "Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "data": "Datos e infraestructura",
+    "tools": "Herramientas"
+  },
+  "education": {
+    "heading": "Educación"
+  },
+  "contact": {
+    "heading": "Contacto",
+    "description": "¿Tienes un proyecto en mente? Escríbeme directamente.",
+    "cta": "Enviar correo"
+  },
+  "footer": {
+    "rights": "© {year} Jayr — todos los derechos reservados"
   }
 }

@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
     <div
       role="group"
       aria-label={t("label")}
-      className="flex items-center gap-1 rounded-full border border-black/[.08] p-1 text-sm dark:border-white/[.145]"
+      className="flex items-center gap-1 rounded-sm border border-border p-1 font-mono text-xs"
     >
       {routing.locales.map((loc) => (
         <button
@@ -29,12 +29,18 @@ export default function LanguageSwitcher() {
           type="button"
           aria-current={loc === locale ? "true" : undefined}
           onClick={() =>
-            router.replace({ pathname, params }, { locale: loc })
+            router.replace(
+              // @ts-expect-error -- next-intl no puede validar que `params`
+              // coincida con `pathname` en tiempo de compilación; en runtime
+              // siempre coinciden porque vienen de la ruta actual.
+              { pathname, params },
+              { locale: loc },
+            )
           }
-          className={`rounded-full px-3 py-1 transition-colors ${
+          className={`rounded-sm px-2 py-1 transition-colors ${
             loc === locale
-              ? "bg-foreground text-background"
-              : "text-zinc-600 hover:bg-black/[.04] dark:text-zinc-400 dark:hover:bg-white/[.08]"
+              ? "bg-primary text-background"
+              : "text-muted hover:text-foreground"
           }`}
         >
           {localeLabels[loc]}
