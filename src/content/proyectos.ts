@@ -33,7 +33,7 @@ export const proyectos: Proyecto[] = [
       en: "Database design, full-stack development (frontend and backend), and deployment.",
       es: "Diseño de base de datos, desarrollo full-stack (frontend y backend) y despliegue.",
     },
-    stack: ["React", "Vite", "Spring Boot", "MySQL", "Cypress", "iText 7"],
+    stack: ["React.js", "Vite", "Spring Boot", "MySQL", "Cypress", "iText 7"],
     retos: [
       {
         titulo: {
@@ -61,8 +61,8 @@ export const proyectos: Proyecto[] = [
           es: "Performance de carga inicial",
         },
         descripcion: {
-          en: "Lighthouse score of 53/100 due to a monolithic bundle. Resolved with route-level code-splitting using React.lazy, reaching 93/100.",
-          es: "Lighthouse en 53/100 por bundle monolítico. Se resolvió con code-splitting a nivel de ruta usando React.lazy, alcanzando 93/100.",
+          en: "Lighthouse score of 53/100 due to a monolithic bundle. Resolved with route-level code-splitting using React.js.lazy, reaching 93/100.",
+          es: "Lighthouse en 53/100 por bundle monolítico. Se resolvió con code-splitting a nivel de ruta usando React.js.lazy, alcanzando 93/100.",
         },
       },
       {
