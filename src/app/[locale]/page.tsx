@@ -6,7 +6,7 @@ import ExperienceTimeline from "@/components/experience/ExperienceTimeline";
 import EducationList from "@/components/education/EducationList";
 
 const STACK = {
-  frontend: ["React", "Next.js", "Vite", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  frontend: ["React.js", "Next.js", "Vite", "TypeScript", "Tailwind CSS", "Framer Motion"],
   backend: ["Java", "Spring Boot"],
   data: ["MySQL", "ClickHouse", "Python"],
   tools: ["Cypress", "ECharts", "iText 7"],
@@ -149,7 +149,7 @@ export default async function Home() {
         </h2>
         <p className="mt-4 max-w-xl text-muted">{tContact("description")}</p>
         <a
-          href="mailto:jaly.ik.2@gmail.com"
+          href="mailto:jayr.galicia.jimenez@gmail.com"
           className="mt-6 inline-flex items-center justify-center rounded-sm bg-primary px-5 py-3 text-sm font-medium text-background transition-colors hover:bg-accent"
         >
           {tContact("cta")}

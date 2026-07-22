@@ -9,10 +9,10 @@ export default async function Footer() {
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 px-4 py-8 font-mono text-sm text-muted sm:flex-row sm:px-6">
         <p>{t("rights", { year })}</p>
         <a
-          href="mailto:jaly.ik.2@gmail.com"
+          href="mailto:jayr.galicia.jimenez@gmail.com"
           className="transition-colors hover:text-primary"
         >
-          jaly.ik.2@gmail.com
+          jayr.galicia.jimenez@gmail.com
         </a>
       </div>
     </footer>
